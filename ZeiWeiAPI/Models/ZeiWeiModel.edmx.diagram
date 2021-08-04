@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c3902a104f0f442ab68a657f027a9ef3" Name="Diagram1">
+        <EntityTypeShape EntityType="ZeiWeiModel.ChatBar" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZeiWeiModel.ChatCreate" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZeiWeiModel.Member" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZeiWeiModel.MemberLife" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <AssociationConnector Association="ZeiWeiModel.FK__ChatBar__Cgroup__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="ZeiWeiModel.FK__ChatBar__CpostId__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="ZeiWeiModel.FK__ChatCreat__CgetI__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="ZeiWeiModel.FK__ChatCreat__CPost__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="ZeiWeiModel.FK__MemberLif__MLNum__398D8EEE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
